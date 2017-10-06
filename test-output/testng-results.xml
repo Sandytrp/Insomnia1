@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24" started-at="2017-10-06T08:34:16Z" finished-at="2017-10-06T08:34:16Z">
+  <suite name="Default suite" duration-ms="23456" started-at="2017-10-06T11:17:04Z" finished-at="2017-10-06T11:17:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24" started-at="2017-10-06T08:34:16Z" finished-at="2017-10-06T08:34:16Z">
+    <test name="Default test" duration-ms="23456" started-at="2017-10-06T11:17:04Z" finished-at="2017-10-06T11:17:27Z">
       <class name="Demo.Insomnia1.AppTest">
-        <test-method status="PASS" signature="Testsuite()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="Testsuite" duration-ms="7" started-at="2017-10-06T14:04:16Z" finished-at="2017-10-06T14:04:16Z">
+        <test-method status="PASS" signature="Testsuite()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="Testsuite" duration-ms="10121" started-at="2017-10-06T16:47:04Z" finished-at="2017-10-06T16:47:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testsuite -->
-        <test-method status="PASS" signature="testApp()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="testApp" duration-ms="0" started-at="2017-10-06T14:04:16Z" finished-at="2017-10-06T14:04:16Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="testApp" duration-ms="13322" started-at="2017-10-06T16:47:14Z" finished-at="2017-10-06T16:47:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- Demo.Insomnia1.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
