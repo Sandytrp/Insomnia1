@@ -14,7 +14,7 @@ import junit.framework.TestSuite;
 public class AppTest extends TestCase
 {
     
-    @org.testng.annotations.Test
+    @org.testng.annotations.Test (priority = 1)
     public void Testsuite()
     {
       System.setProperty("webdriver.chrome.driver", "Jars\\chromedriver.exe");
@@ -25,13 +25,13 @@ public class AppTest extends TestCase
       
     }
 
-    @org.testng.annotations.Test
+    @org.testng.annotations.Test (priority = 2)
     public void testApp()
     {
-    	System.setProperty("webdriver.gecko.driver", "Jars\\geckodriver.exe");
-    	FirefoxDriver driver= new FirefoxDriver();
-        driver.get("http://www.Gmail.com");
-        String title = driver.getTitle();
-        Assert.assertEquals(title, "Gmail");
+    	 System.setProperty("webdriver.chrome.driver", "Jars\\chromedriver.exe");
+         ChromeDriver driver= new ChromeDriver();
+         driver.get("http://www.Gmail.com");
+         String title = driver.getTitle();
+         Assert.assertEquals(title, "Gmail");
     }
 }
