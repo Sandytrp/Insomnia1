@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24" started-at="2017-10-06T08:34:16Z" finished-at="2017-10-06T08:34:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24" started-at="2017-10-06T08:34:16Z" finished-at="2017-10-06T08:34:16Z">
+      <class name="Demo.Insomnia1.AppTest">
+        <test-method status="PASS" signature="Testsuite()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="Testsuite" duration-ms="7" started-at="2017-10-06T14:04:16Z" finished-at="2017-10-06T14:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testsuite -->
+        <test-method status="PASS" signature="testApp()[pri:0, instance:null(Demo.Insomnia1.AppTest)]" name="testApp" duration-ms="0" started-at="2017-10-06T14:04:16Z" finished-at="2017-10-06T14:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Demo.Insomnia1.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
